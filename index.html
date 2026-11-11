@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <title>Konsertklubben</title>
+  </head>
+  <body>
+    <header>
+      <h1>Konsertklubben</h1>
+      <nav>
+        <a href="index.html">Start</a>
+        <a href="om.html">Om klubben</a>
+      </nav>
+    </header>
+    <main>
+      <p>Livemusik i källaren varje <strong>fredag</strong>.</p>
+      <section>
+        <h2>Kommande konserter</h2>
+        <article>
+          <h3>Jazztrion</h3>
+          <p>Fredag 20/11 kl 20. Piano, bas och trummor.</p>
+        </article>
+        <article>
+          <h3>Kören Stämband</h3>
+          <p>Fredag 27/11 kl 19. Trettio röster, inga instrument.</p>
+        </article>
+      </section>
+      <img src="bilder/scen.png" alt="Scenen med en mikrofon i ljuset" />
+      <section>
+        <h2>Bli medlem</h2>
+        <form>
+          <p>
+            <label for="namn">Namn</label>
+            <input id="namn" type="text" required />
+          </p>
+          <p>
+            <label for="epost">E-post</label>
+            <input id="epost" type="email" required />
+          </p>
+          <p>
+            <label for="instrument">Jag spelar</label>
+            <select id="instrument">
+              <option>Inget, jag lyssnar</option>
+              <option>Gitarr</option>
+              <option>Piano</option>
+            </select>
+          </p>
+          <p>
+            <label for="halsning">Något du vill säga?</label>
+            <textarea id="halsning"></textarea>
+          </p>
+          <button>Bli medlem</button>
+        </form>
+      </section>
+    </main>
+    <footer>Konsertklubben, Storgatan 1. Öppet fredagar 18–23.</footer>
+  </body>
+</html>
